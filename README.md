@@ -40,7 +40,7 @@ Regardless if you can or cannot answer the question, provide a short explanation
 
 ## Solution Explanation
 
-To use sentiment analysis, we must implement the Natural Language Toolkit (NLTK) library. NLTK has a built-in feature known as VADER (Valence Aware Dictionary and sEntiment Reasoner). VADER is best suited for language used in social media and short sentences with abbreviations and slang. VADER is not as accurate when dealing with long paragraphs but it can be a good start to solve the problem. To implement VADER, we have to create an instance of nltk.sentiment.SentimentIntensityAnalyzer, then use .polarity_scores() on a raw string which can be done like this:
+To use sentiment analysis, we must implement the Natural Language Toolkit (NLTK) library. NLTK has a built-in feature known as VADER (Valence Aware Dictionary and sEntiment Reasoner). VADER is best suited for language used in social media and short sentences with abbreviations and slang. VADER is not as accurate when dealing with long paragraphs but it can be a good start to solve the problem. To implement VADER, we have to create an instance of `nltk.sentiment.SentimentIntensityAnalyzer`, then use `.polarity_scores()` on a raw string which can be done like this:
 
 ```
 from nltk.sentiment import SentimentIntensityAnalyzer
