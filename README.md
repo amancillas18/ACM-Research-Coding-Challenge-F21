@@ -33,4 +33,10 @@ Regardless if you can or cannot answer the question, provide a short explanation
 ----------------------------------------------------------------------------------------------------------------
 ## Solution
 
+Sources used:
+
+-[NLTK] (http://www.nltk.org/)
+
+
+
 
